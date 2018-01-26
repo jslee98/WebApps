@@ -1,4 +1,4 @@
-body {
+.titillium {
   font-family: "Titillium Web", Arial, sans-serif;
   font-size: 100%;
 }
@@ -8,4 +8,5 @@ h1 {
 }
 header {
   font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
 }
