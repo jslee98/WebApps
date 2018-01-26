@@ -1,16 +1,16 @@
-.titillium{
-  font-family: "Titillium Web", Arial, sans-serif;
-  font-size: 100%;
-}
 body {
-  font-family: "Titillium Web", Arial, sans-serif;
+  font-family: "Carme", Arial, sans-serif;
   font-size: 100%;
 }
 h1 {
-  font-family: "Bebas Neue", Arial, sans-serif;
+  font-family: "Bebas Neue", "Baloo Da", sans-serif;
   font-size: 1.8em;
 }
+h2 {
+  font-family: "Baloo Da", Arial, sans-serif;
+  font-size: 1.4em;
+}
 header {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Ubuntu Mono", sans-serif;
   font-size: 20px;
 }
