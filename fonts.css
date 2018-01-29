@@ -19,3 +19,6 @@
 .font_fjalla {
   font-family: "Fjalla One", sans-serif;
 }
+a:hover {
+    color:pink;
+}
