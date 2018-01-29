@@ -20,8 +20,15 @@ a:hover {
     color:pink;
 }
 body {
+  font-family: "Sintony", sans-serif;
   font-size: 100%;
+  text-align: center;
 }
+body.uncentered {
+  font-size: 100%;
+  text-align: left;
+}
+
 h1 {
   font-size: 1.8em;
 }

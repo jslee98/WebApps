@@ -1,0 +1,34 @@
+/*
+Blue color scheme
+color: #134D94, medium blue, body
+color: #4E7BB1, light blue, header background
+color: #2F63A1, darker light blue, for visited links
+color: #0A3B76, lighter navy, for unclicked links
+color: #062D5C, navy blue, for headers
+color: #E28E0B, complimentary orange
+color: #FDF5C9, cream for background
+*/
+
+header {
+  background-color: #4E7BB1;
+  color: #FDF5C9;
+}
+header a {
+  color: #FDF5C9;
+}
+h1 {
+  color: #062D5C;
+}
+h2 {
+  color: #062D5C;
+}
+body {
+  color:#134D94;
+  background-color: #FDF5C9;
+}
+a:visited {
+  color: #2F63A1;
+}
+a:link {
+  color: #0A3B76;
+}
