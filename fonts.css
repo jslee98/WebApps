@@ -22,3 +22,9 @@
 a:hover {
     color:pink;
 }
+body {
+  font-size: 100%;
+}
+h1 {
+  font-size: 1.8em;
+}
