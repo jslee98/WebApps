@@ -1,17 +1,12 @@
-body {
-  font-family: "Sintony", Arial, sans-serif;
-  font-size: 100%;
+.font_viga {
+  font-family: 'Viga', sans-serif;
 }
-h1 {
+.font_ubuntu {
+  font-family: 'Ubuntu Mono', sans-serif;
+}
+.font_bebas {
   font-family: "Bebas Neue", "Viga", sans-serif;
-  font-size: 2.0em;
 }
-h2 {
-  font-family: "Viga", Arial, sans-serif;
-  font-size: 1.4em;
-    color: blue;
-}
-header {
-  font-family: "Ubuntu Mono", Helvetica, sans-serif;
-  font-size: 20px;
+.font_sintony {
+  font-family: "Sintony", sans-serif;
 }
