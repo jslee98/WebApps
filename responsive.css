@@ -1,0 +1,125 @@
+body {
+  font-family: "Sintony", sans-serif;
+  font-size: 90%;
+  width: auto;
+  box-sizing: border-box;
+}
+h1 {
+  font-family:"Fjalla One", sans-serif;
+  font-size: 1.8em;
+}
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+
+.heading{
+	border-bottom: 3px solid black;
+  border-color: ;
+  max-width: 90px;
+}
+.info_container{
+  margin: 10px;
+  padding: 10px;
+  width:auto;
+  text-align: left;
+}
+.coursework_container {
+  padding: 10px;
+  width: auto;
+  clear: both;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+}
+/* change below a little */
+.headshot {
+  padding: 10px;
+  float: right;
+  height: 175px;
+}
+
+
+.row {
+  clear:both;
+  width:auto;
+}
+
+.column {
+  padding: 4px;
+  margin: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #project1 {
+    width: 45%;
+    height: 200px;
+  }
+  #project2 h2 {
+    text-align: right;
+  }
+  #project2 {
+    width: 45%;
+    height: 200px;
+  }
+  #project3 {
+    width: 100%;
+  }
+  #project3 h2  {
+    text-align: center;
+  }
+  #project2 .column{
+    height: 200px;
+  }
+  body {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 992px){
+  #project1 {
+    width: 29%;
+    height: 200px;
+  }
+  #project2 {
+    width: 29%;
+    height: 200px;
+  }
+  #project2 h2  {
+    text-align: center;
+  }
+  #project3 {
+    width: 29%;
+    height: 200px;
+  }
+  #project3 h2  {
+    text-align: right;
+  }
+  body {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+.font_viga {
+  font-family: 'Viga', sans-serif;
+}
+.font_ubuntu {
+  font-family: 'Ubuntu Mono', sans-serif;
+}
+.font_sintony {
+  font-family: "Sintony", sans-serif;
+}
+.font_roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font_ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+.font_fjalla {
+  font-family: "Fjalla One", sans-serif;
+}
