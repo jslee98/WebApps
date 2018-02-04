@@ -13,7 +13,7 @@ h2 {
 }
 
 .heading{
-	border-bottom: 3px solid black;
+	border-bottom: 1px solid black;
   border-color: ;
   max-width: 90px;
 }
@@ -24,15 +24,22 @@ h2 {
   text-align: left;
 }
 .coursework_container {
+  background-color: white;
   padding: 10px;
   width: auto;
   clear: both;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: black;
   margin: 10px;
 }
-/* change below a little */
+.coursework_container h2 {
+  background-color: #E28E0B;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
 .headshot {
   padding: 10px;
   float: right;
@@ -45,15 +52,34 @@ h2 {
   width:auto;
 }
 
+.column h2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
 .column {
+  background-color: white;
   padding: 4px;
   margin: 10px;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
   border-color: black;
   float: left;
 }
 
+#project1 h2 {
+  background-color: #0A3B76;
+  color:#FFFFFF;
+}
+#project2 h2 {
+  background-color: #2F63A1;
+  color:#FFFFFF;
+}
+
+#project3 h2  {
+  background-color: #062D5C;
+  color:#FFFFFF;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   #project1 {
     width: 45%;
