@@ -39,6 +39,7 @@ h2 {
   margin: 10px;
 }
 .coursework_container h2 {
+  padding: 4px;
   background-color: #E28E0B;
   border-width: 1px;
   border-style: solid;
@@ -57,6 +58,7 @@ h2 {
 }
 
 .column h2 {
+  padding: 4px;
   border-width: 1px;
   border-style: solid;
   border-color: black;
