@@ -127,18 +127,18 @@ h2 {
 
 @media (min-width: 992px){
   #project1 {
-    width: -webkit-calc(33% - 18px);;
+    width: -webkit-calc(33.33% - 20px);;
     height: 230px;
   }
   #project2 {
-    width: -webkit-calc(33% - 17px);;
+    width: -webkit-calc(33.33% - 20px);;
     height: 230px;
   }
   #project2 h2  {
     text-align: center;
   }
   #project3 {
-    width: -webkit-calc(33% - 18px);;
+    width: -webkit-calc(33.33% - 20px);;
     height: 230px;
   }
   #project3 h2  {
