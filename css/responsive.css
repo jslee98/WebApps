@@ -23,8 +23,8 @@ h2 {
 
 .heading{
 	border-bottom: 1px solid black;
-  border-color: ;
-  max-width: 90px;
+  border-color: black;
+  max-width: 100px;
 }
 .info_container{
   margin: 10px;
@@ -53,12 +53,12 @@ h2 {
 .headshot {
   padding: 10px;
   float: right;
-  height: 100px;
+  height: 130px;
 }
 
 .row {
   clear:both;
-  width: 100%;
+  width: auto;
 }
 
 .column h2 {
@@ -76,7 +76,7 @@ h2 {
   border-style: solid;
   border-color: black;
   float: left;
-  width: 100%;
+  width: auto;
 }
 
 #project1 h2 {
@@ -95,18 +95,18 @@ h2 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   #project1 {
-    width: 46%;
+    width: -webkit-calc(50% - 20px);
     height: 200px;
   }
   #project2 h2 {
     text-align: right;
   }
   #project2 {
-    width: 46%;
+    width: -webkit-calc(50% - 20px);
     height: 200px;
   }
   #project3 {
-    width: 100%;
+    width: auto;
   }
   #project3 h2  {
     text-align: center;
@@ -127,18 +127,18 @@ h2 {
 
 @media (min-width: 992px){
   #project1 {
-    width: 30%;
+    width: -webkit-calc(33% - 18px);;
     height: 230px;
   }
   #project2 {
-    width: 30%;
+    width: -webkit-calc(33% - 17px);;
     height: 230px;
   }
   #project2 h2  {
     text-align: center;
   }
   #project3 {
-    width: 30%;
+    width: -webkit-calc(33% - 18px);;
     height: 230px;
   }
   #project3 h2  {
