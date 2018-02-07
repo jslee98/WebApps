@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #project2 {
+    text-align: right;
+  }
+  #project3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px){
+  #project2 {
+    text-align: center;
+  }
+  #project3 {
+    text-align: right;
+  }
+}
