@@ -1,6 +1,54 @@
 h1 {
   text-align: center;
 }
+h2 {
+  padding: 4px;
+}
+.headshot{
+  height: 120px;
+}
+
+#border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#projectformat {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#sample {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: #E28E0B;
+  color: #FFFFFF;
+}
+
+#project1 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: #062D5C;
+  color:#FFFFFF;
+}
+#project2 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: #0A3B76;
+  color:#FFFFFF;
+}
+#project3 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: #2F63A1;
+  color:#FFFFFF;
+}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -10,6 +58,13 @@ h1 {
   #project3 {
     text-align: center;
   }
+  #projectformat {
+    height: 220px;
+  }
+  .headshot{
+    height: 170px;
+  }
+
 }
 
 @media (min-width: 992px){
@@ -18,5 +73,11 @@ h1 {
   }
   #project3 {
     text-align: right;
+  }
+  #projectformat {
+    height: 230px;
+  }
+  .headshot{
+    height: 170px;
   }
 }
