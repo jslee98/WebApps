@@ -6,75 +6,104 @@
   <title>Jeff's Projects</title>
   <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Sintony|Fjalla+One|Ubuntu+Mono|Viga|Roboto|PT+Sans">
-  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap_complement.css">
 </head>
 
 <body>
-  <h1> CSCI 379 Portfolio </h1>
-  <div class="info_container">
-    <h2 class="heading"> About Me </h2>
-    <img src="download.png" class="headshot" alt="Headshot">
-    <p class="aboutMe">
-      Jeffrey S. Lee
-      <br>
-      Computer Science & Engineering '20
-      <br>
-      <a href= "mailto:jsl028@bucknell.edu" >Email Me</a>
-      <br>
-      <br>
-      I am a sophomore computer science student at Bucknell University, and
-      this is my portfolio of CSCI 379: Full Stack Web Design. In my free time,
-      I enjoy skiing, playing lacrosse, and working on personal programming
-      projects.
-    </p>
-  </div>
-  <br>
-  <div class="coursework_container">
-    <h2> Sample Coursework </h2>
-    <p>
-      This course gives an introduction to developing modern web applications
-      covering the full web stack from implementing server-side logic and
-      databases, application frameworks, HTML5/CSS3/JS, and a little bit of
-      UI/UX design.
-      <br>
-      <br>
-      Here is a link to our first activity: <a href="fontfun.html">Font Fun</a>
-      <br>
-      Here is a link to Project 1b: <a href="project1b.html">Project 1b</a>
-    </p>
-  </div>
-
-  <div class="row">
-    <div class="column" id="project1">
-      <h2> Project One </h2>
-      <p>
-        In Project One, we wrote a basic portfolio page and used CSS rules to
-        style it to have a custom color palette, font selection, and a responsive
-        design for different devices. You're on this site now!
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 > <a href="./"> CSCI 379 Portfolio </a> </h1>
+        <h2 class="heading"> About Me</h2>
+      </div>
+      <div class="col-9 pb-3">
+        Jeffrey S. Lee
         <br>
-        <a href="project1b.html"> Project 1b </a>
-      </p>
+        Computer Science & Engineering '20
+        <br>
+        <a href= "mailto:jsl028@bucknell.edu" >Email Me</a>
+        <br>
+        <p>
+          I am a sophomore computer science student at Bucknell University, and
+          this is my portfolio of CSCI 379: Full Stack Web Design. In my free time,
+          I enjoy skiing, playing lacrosse, and working on personal programming
+          projects.
+        </p>
+      </div>
+      <div class="col-3 pb-3">
+        <img src="./images/download.png" class="headshot" alt="Headshot">
+        <br>
+
+      </div>
     </div>
 
-    <div class="column" id="project2">
-      <h2> Project Two </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna
-        aliqua.
-      </p>
+    <div class="row">
+      <div class="col-12" id="border">
+        <div class="p-2">
+          <h2 id="sample"> Sample Coursework </h2>
+          <p>
+            This course gives an introduction to developing modern web applications
+            covering the full web stack from implementing server-side logic and
+            databases, application frameworks, HTML5/CSS3/JS, and a little bit of
+            UI/UX design.
+            <br>
+            <br>
+            Example Assignments:
+            <ul>
+              <li> <a href="./HTML_Exercises/fontfun.html"> CSS Example 1</a>, using Google Fonts.</li>
+              <li> <a href="./HTML_Exercises/project1a.html"> CSS Example 2</a>, a responsive site for desktop and mobile.</li>
+              <li> <a href="./HTML_Exercises/bootstrapsample1.html"> Bootstrap Example 1</a>, bones of a website.</li>
+              <li> <a href="./HTML_Exercises/bootstrapsample2.html"> Bootstrap Example 2</a>, a simple coming soon page.</li>
+              <li> <a href="./HTML_Exercises/dogs.html"> JavaScript Example</a>, a dog slot machine.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
     </div>
 
-    <div class="column" id="project3">
-      <h2> Project Three </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna
-        aliqua.
-      </p>
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 p-0 pt-3 pr-md-3 ">
+        <div class="p-2" id="projectformat">
+          <h2 id="project1"> Project One </h2>
+          <p>
+            In Project 1a, we wrote a basic portfolio page and used CSS rules to
+            style it to have a custom color palette, font selection, and a responsive
+            design for different devices. In part b, we translated our page into a
+            Bootstrap framework.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 p-0 pt-3">
+        <div class="p-2" id="projectformat">
+          <h2 id="project2"> Project Two </h2>
+          <p>
+            In Project 2, we wrote a web application using React, JSX and Bootstrap
+            that would provide a better interface for searching for classes than
+            the one currently provided to students.
+            <br/>
+            <a href = "./project2/courseapp/release/v1.0/"> CourseHunter </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-4 p-0 pl-lg-3 pt-3 pb-3">
+        <div class="p-2" id="projectformat">
+          <h2 id="project3"> Project Three </h2>
+          <p>
+            Our final project was a culmination of the course, and involved creating
+            a React Web Application with frontend and backend servers hosted on
+            an Amazon EC2 instance.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Designed by Jeff Lee for CSCI 379 at Bucknell.</span>
+    </div>
+  </footer>
 </body>
 </html>
